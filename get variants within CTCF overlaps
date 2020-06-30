@@ -1,6 +1,6 @@
+#filter CTCF overlap regions containing archaic variants
 import sys
 import itertools
-#import cooler
 def get_variants(filtered_matrix, variant_dict):
     new_matrix = {}
     with open(filtered_matrix) as f:
