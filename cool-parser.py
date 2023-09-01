@@ -1,5 +1,5 @@
 import sys
-#cooler.parser.py
+#cool-parser.py
 #takes annotated cooler matrix in txt format and returns regions along the diagonal with CTCF motifs on both x and y-axis bins
 #also returns list of CTCF domains within each bin 
 #can take thee difference between to matrices as input, so that the "count" column for eeach matrix entry is the difference between two matricees
